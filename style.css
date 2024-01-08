@@ -1,22 +1,24 @@
-body{
-    margin: 0;
-    padding: 0;
-    background: linear-gradient( #4A55A2, #7895CB, #24243e);
-    height: 800px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+body {
+	margin: 0;
+	padding: 0;
+	background: linear-gradient(#4A55A2, #7895CB, #24243e);
+	height: 800px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
 }
-.allForms{
-    width: 280px;
+
+.allForms {
+	width: 280px;
 	height: 400px;
-	background:linear-gradient( #4A55A2, #7895CB, #24243e);
+	background: linear-gradient(#4A55A2, #7895CB, #24243e);
 	border-radius: 10px;
 	box-shadow: 3px 10px 25px #000;
-    overflow: hidden;
+	overflow: hidden;
 }
-input{
+
+input {
 	width: 190px;
 	height: 28px;
 	background: #e0dede;
@@ -28,34 +30,37 @@ input{
 	outline: none;
 	border-radius: 5px;
 }
-button{
-	display: block;
-    color: #fff;
-	background:  #7895CB;
-    outline: none;
+
+button {
+	color: #fff;
+	background: #7895CB;
+	outline: none;
 	border: none;
-    cursor: pointer;
+	cursor: pointer;
 	font-weight: bold;
-    width: 63%;
+	width: 63%;
 	height: 30px;
-    margin: 20px auto;
-    font-size: 12px;
-    border-radius: 5px;
+	margin: 20px auto;
+	font-size: 12px;
+	border-radius: 5px;
 }
-button:hover{
-    transition: .3s;
-    background:  #4A55A2;
+
+button:hover {
+	transition: .3s;
+	background: #4A55A2;
 }
-.SignUpform{
+
+.SignUpform {
 	position: relative;
-	width:100%;
+	width: 100%;
 	height: 100%;
 }
-label{
+
+label {
 	color: #fff;
 	font-size: 27px;
 	font-weight: bold;
-	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	justify-content: center;
 	display: flex;
 	margin-top: 50px;
@@ -63,28 +68,35 @@ label{
 	cursor: pointer;
 	transition: .5s;
 }
-#loginLabel{
-    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: bold;
-    font-size: 18px;
-    margin: 50px auto;
-    color: #4A55A2;
-    cursor: pointer;
+
+#loginLabel {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+	margin: 50px auto;
+	color: #4A55A2;
+	cursor: pointer;
 	padding-top: 10px;
 }
-.Loginform{
-    height: 400px;
+
+.Loginform {
+	height: 400px;
 	background: #eee;
 	border-radius: 60% /10%;
 	transform: translateY(-150px);
-    transition: .8s;
+	transition: .8s;
 }
-#click{
-    display: none;
+
+#click {
+	display: none;
 }
-#click:checked ~ .Loginform{
+
+#click:checked~.Loginform {
 	transform: translateY(-400px);
 }
-input[type="text"],[type="password"],[type="email"]{
+
+input[type="text"],
+[type="password"],
+[type="email"] {
 	font-size: 12px;
 }
