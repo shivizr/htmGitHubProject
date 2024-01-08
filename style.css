@@ -14,6 +14,7 @@ body{
 	background:linear-gradient( #4A55A2, #7895CB, #24243e);
 	border-radius: 10px;
 	box-shadow: 3px 10px 25px #000;
+    overflow: hidden;
 }
 input{
 	width: 180px;
@@ -22,7 +23,7 @@ input{
 	justify-content: center;
 	display: flex;
 	margin: 20px auto;
-	padding: 4px;
+	padding: 5px;
 	border: none;
 	outline: none;
 	border-radius: 5px;
@@ -35,38 +36,48 @@ button{
     cursor: pointer;
     width: 60%;
 	height: 30px;
-	margin: 20px auto;
+	margin-bottom: 15px;
+    margin-top: 15px;
     font-size: 15px;
-	margin-top: 30px;
-	margin-bottom: 30px;
+    border-radius: 5px;
 }
 button:hover{
     transition: .3s;
     background:  #4A55A2;
 }
-.signUp{
+#signUp{
 	color: #fff;
 	font-size: 27px;
 	font-weight: bold;
 	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
 	justify-content: center;
 	display: flex;
-	margin: 50px;
+	margin: 50px auto;
 	cursor: pointer;
 }
-.loginLabel{
+#loginLabel{
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 50px auto;
     color: #4A55A2;
-    
+    cursor: pointer;
 }
 .Loginform{
+    margin-top: 158px;
     height: 400px;
+    margin-bottom: 200px;
 	background: #eee;
 	border-radius: 60% / 10%;
 	transform: translateY(-150px);
+    transition: .8s;
 }
 #click{
     display: none;
 }
 #click:checked ~ .Loginform{
 	transform: translateY(-400px);
+}
+input[type="text"],[type="password"],[type="email"]{
+	font-size: 12px;
 }
