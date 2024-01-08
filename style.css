@@ -2,9 +2,26 @@ body{
     margin: 0;
     padding: 0;
     background: linear-gradient( #4A55A2, #7895CB, #24243e);
-    height: 720px;
+    height: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+.allForms{
+    width: 280px;
+	height: 400px;
+	background:linear-gradient( #4A55A2, #7895CB, #24243e);
+	border-radius: 10px;
+	box-shadow: 3px 10px 25px #000;
+}
+button{
+    color: #fff;
+	background:  #7895CB;
+    outline: none;
+	border: none;
+    cursor: pointer;
+}
+button:hover{
+    background:  #4A55A2;
 }
