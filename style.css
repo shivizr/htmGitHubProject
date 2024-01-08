@@ -15,6 +15,18 @@ body{
 	border-radius: 10px;
 	box-shadow: 3px 10px 25px #000;
 }
+input{
+	width: 180px;
+	height: 25px;
+	background: #e0dede;
+	justify-content: center;
+	display: flex;
+	margin: 20px auto;
+	padding: 4px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+}
 button{
     color: #fff;
 	background:  #7895CB;
