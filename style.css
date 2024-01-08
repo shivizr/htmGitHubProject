@@ -21,7 +21,14 @@ button{
     outline: none;
 	border: none;
     cursor: pointer;
+    width: 60%;
+	height: 30px;
+	margin: 20px auto;
+    font-size: 15px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 button:hover{
+    transition: .3s;
     background:  #4A55A2;
 }
