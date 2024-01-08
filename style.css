@@ -32,3 +32,13 @@ button:hover{
     transition: .3s;
     background:  #4A55A2;
 }
+label{
+	color: #fff;
+	font-size: 27px;
+	font-weight: bold;
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	justify-content: center;
+	display: flex;
+	margin: 50px;
+	cursor: pointer;
+}
